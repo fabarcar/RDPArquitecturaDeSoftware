@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #ffffff;
+    color: #1a1a1a;
+    padding: 0 20px;
+}
+
+.dark {
+    background-color: #1a1a1a;
+    color: #ffffff;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #232b39;
+    color: white;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+.btn-tema {
+    background-color: #006eff;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+section {
+    margin-bottom: 35px;
+}
+
+.servicios .cards {
+    display: flex;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.card {
+    background-color: #eaeaea;
+    padding: 20px;
+    width: 30%;
+    text-align: center;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.contacto form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 350px;
+}
+
+input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #bbb;
+}
+
+.btn-enviar {
+    background-color: #006eff;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+}
